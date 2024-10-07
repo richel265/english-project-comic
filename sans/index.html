@@ -3,13 +3,20 @@
 <head>
 	<title>skeleton</title>
 	<meta name="description" content="This page has moved." />
+	<script>
+	let person = prompt("Enter the code", "12345");
+	if (person == "59984") {
+  		document.getElementById("demo").innerHTML =
+  		"Correct code  (" + person + ") entered.";
+	}
+	</script>
 </head> 
 <body>
-	<div class="alert">
-  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-  This is an alert box.
-</div>
+	<div class="alert" id="demo">
+  		<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  		This is an alert box.
+	</div>
 	<a>This page has moved. You will be taken to the link below shortly.</a><br/>
-	<iframe width="1260" height="768" src="https://richel265.github.io/english-comic/" frameborder="0"></iframe>
+	<iframe width="630" height="384" src="https://richel265.github.io/english-comic/" frameborder="0"></iframe>
 </body> 
 </html> 
