@@ -4,10 +4,11 @@
 	<title>skeleton</title>
 	<meta name="description" content="This page has moved." />
 	<script>
-	let person = prompt("Enter the code", "12345");
-	if (person == "59984") {
-  		document.getElementById("demo").innerHTML =
-  		"Correct code  (" + person + ") entered.";
+	while (person==null){
+		person = prompt("Enter the code", "12345");
+		if (person == "59984") {
+  		alert("Correct code  (" + person + ") entered.")	
+		}
 	}
 	</script>
 </head> 
